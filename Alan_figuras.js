@@ -18,6 +18,7 @@ class Figura {
 class Hexagono extends Figura {
 
     constructor(lado) {
+        super("Hexagono")
         this.lado = lado;
     }
 
